@@ -103,15 +103,30 @@ body {
 /* Cosas raras */
 
 #content {
+	padding-top: 15px;
+
 	display: grid;
 
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
+
+	height: 100%;
 }
 
 .procedure {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+
 	background-color: #15171B;
 	border-radius: 10px;
+
+	height: 90%;
+}
+
+.procedure-title {
+	
 }
 
 
